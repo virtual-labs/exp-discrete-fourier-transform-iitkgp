@@ -29,7 +29,7 @@
                             <p><p style="text-align:center">`x[n]=x[n mod N]=x[((n))N]`</p>
                             <p style="text-align:">Here n mod N and((n))N are taken to mean n modulo N, which has the value of the remainder 
                                 after n is divided by N.Alternatively, if n is written in the form n = kN + l for 0 &leq; l &leq; N, then</p>
-                            <p>n mod N = ((n))N = l </p><center><img src="../images/exp6/pic-1.png" style="height:50%;width:50%;" align="center" /></center>
+                            <p>n mod N = ((n))N = l </p><center><img src="images/pic-1.png" style="height:50%;width:50%;" align="center" /></center>
                             <p style="text-align:">Similarly, the periodic extension of X[k] is defined to be</p><p><p style="text-align:center">`X[k]=X[k mod N]=X[((K))n]`</p>
                             <p style="text-align:">It is sometimes better to reason in terms of these periodic extensions when dealing with the DFT. 
                                 Specifically, if X[k] is the DFT of x[n], then the inverse DFT of X[k] is [n]. The signals x[n] and [n] are identical 
