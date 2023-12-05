@@ -1,0 +1,73 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Let x(n) be a sequence that is zero outside the interval [0,N-1] with a DFT X(K). Derive the expression for the DFT of y(n); If y(n) = x(n) + x(n - N) and choose the correct answer/answers from below.",
+      "answers": {
+        "a": "Y(K) = 2X(K) ; for K = odd",
+        "b": "Y(K) = 0 ; for K = odd",
+        "c": "Y(K) = 2X(K) ; for K = even",
+        "d": "Y(K) = X(K) ; for K = even"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "DFT of a sequence x(n) is given as X(K) = {64, 32, 80, 32} The value of IDFT [IDFT [IDFT [IDFT {X(K))}]]] is ______",
+      "answers": {
+        "a": "[4, -2, 5, -2]",
+        "b": "[-4, 2, -5, 2]",
+        "c": "[4, 2, -5, 2]",
+        "d": "[4, 2, 5, 2]"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Two point DFT of a sequence x[n] is X[k] = [6, 2], compute its inverse.",
+      "answers": {
+        "a": "x(n) = [2,2]",
+        "b": "x(n) = [2,4]",
+        "c": "x(n) = [4,4]",
+        "d": "x(n) = [4,2]"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Inverse discrete Fourier transform of Y(k) = {1, 0, 1, 0} is",
+      "answers": {
+        "a": "y(n) = {0, 0.5, 0, 0.5}",
+        "b": "y(n) = {0.5, 0, 0.5, 0}",
+        "c": "y(n) = {0.5, 0.5, 0, 0}",
+        "d": "y(n) = {0, 0, 0.5, 0.5}"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}

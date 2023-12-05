@@ -1,0 +1,73 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "The output of a circular convolution performed on two signals x1(n) = {2, 1, 2, 1} and x2(n) = {1, 2, 3, 4} is:",
+      "answers": {
+        "a": "{16, 14, 16, 14}",
+        "b": "{14, 16, 14, 16}",
+        "c": "{12, 14, 12, 14}",
+        "d": "{14, 12, 14, 12}"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The difference in the number of complex multipliers required for 16-point DFT and 16-point radix-2 FFT is:",
+      "answers": {
+        "a": "30",
+        "b": "63",
+        "c": "224",
+        "d": "256"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The sequence x(n) = {2, 3, 4, 3} is:",
+      "answers": {
+        "a": "Circularly odd",
+        "b": "Circularly even",
+        "c": "Partly circularly odd and partly circularly even",
+        "d": "Neither circularly odd nor circularly even"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The x[n] = {4, 3, 2, 1, 2, 3} signal is:",
+      "answers": {
+        "a": "4 point circularly even",
+        "b": "6 point circularly even",
+        "c": "2 point circularly even",
+        "d": "3 point circularly even"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}
