@@ -48,7 +48,7 @@ after n is divided by N.Alternatively, if n is written in the form n = kN + l fo
 <p>n mod N = ((n))N = l </p><center><img src="images/pic-1.png" style="height:50%;width:50%;" align="center" /></center>
 <p style="text-align:">Similarly, the periodic extension of X[k] is defined to be</p>
 
-$$X[k]=X[k \ mod \ N]=X[((K))n]$$
+$$X[k]=X[k \ mod \ N]=X[((K))n]|$$
 
 <p style="text-align:">It is sometimes better to reason in terms of these periodic extensions when dealing with the DFT. 
 Specifically, if X[k] is the DFT of x[n], then the inverse DFT of X[k] is [n]. The signals x[n] and [n] are identical 
